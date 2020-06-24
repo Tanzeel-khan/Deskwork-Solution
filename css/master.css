@@ -59,9 +59,13 @@ background-repeat: no-repeat;
   font-size: 20px;
 }
 .btn-outline-secondary:hover{
-  color: #fff;
-  background-color:red !important;
+  color: red !important;
+  background-color:white !important;
   background-image: none;
+  border-color: #dc3545;
+}
+.btn-outline-secondary.dropdown-toggle {
+  background-color: #dc3545;
   border-color: #dc3545;
 }
 .dropdown-item {
