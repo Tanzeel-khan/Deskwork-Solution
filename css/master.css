@@ -30,11 +30,15 @@ background-size: cover;
 background-repeat: no-repeat;
 }
 .header-area2{
-  background: linear-gradient(to right,#45216d,#c64568);
-  height: 200px;
+  background: url("../images/cover3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
 }
 .header-area3{
-  background: #45216d;
+  background: url("../images/cover3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 500px;
 }
 .btn-danger {
@@ -69,12 +73,15 @@ background-repeat: no-repeat;
   border-color: #dc3545;
 }
 .dropdown-item {
+  background-color: white !important;
+}
+.dropdown-item:hover{
   background-color: #dc3545 !important;
 }
 .dropdown-menu{
-  background-color: #dc3545 !important;
- 
+  background-color: white !important;
 }
+
 .banner{
   display: flex;
     background: transparent;
@@ -1142,7 +1149,7 @@ a{
   height: 140px;
 }
 .logo{
-  margin-left: -20px;
+  margin-left: -15px;
   width: 140px;
 }
 .logo2{
