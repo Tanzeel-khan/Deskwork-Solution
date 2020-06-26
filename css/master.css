@@ -32,6 +32,11 @@ body {
   font-weight: bold;
   color: #4a206e;
 }
+.bg-im{
+  background: url("../images/apartment-architecture-business-chair-265129.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .header-area{
 height: 105vh;
 background-image: url("../images/2753053.png");
@@ -258,7 +263,7 @@ ul li{
   border-radius: 25px;
 }
 .p-logo{
-  width: 80px;
+  width: 190px;
 }
 nav{
   background: transparent;
@@ -1040,7 +1045,7 @@ height: 210px;
   background-color: white;
 }
 .s1{
-  height: 1120px;
+  height: auto;
   background-color: white;
 }
 .ds1{
