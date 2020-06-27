@@ -275,7 +275,31 @@ ul li{
   border-radius: 25px;
 }
 .p-logo{
-  width: 190px;
+  width: 255px;
+  height: 230px;
+  border-radius: 10px;
+}
+.p-img{
+  max-width: 1000px !important;
+  height: 360px !important;
+}
+.overlay {
+  position: absolute;
+  bottom: 28px;
+  background: rgb(0, 0, 0);
+  background: rgba(128, 0, 128, 0.7);
+  color: #f1f1f1;
+  width: inherit;
+  transition: .5s ease;
+  opacity: 0;
+  color: azure;
+  font-size: 20px;
+  height: inherit;
+  text-align: center;
+  /* padding: 85px; */
+  font-weight: bold;
+  font-size: x-large;
+  padding-top: 5rem;
 }
 nav{
   background: transparent;
@@ -679,6 +703,10 @@ nav{
 }
 .card2:hover{
   box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.6);
+}
+.card2:hover .overlay {
+  opacity: 1;
+  border-radius: 10px;
 }
 .b-img{
   background: url(../images/black-laptop-beside-black-computer-mouse-inside-room-669996.jpg) !important;
