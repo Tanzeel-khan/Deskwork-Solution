@@ -2161,7 +2161,7 @@ footer{
 }
 .s1{
 background-color: white;
-height: 3410px;
+height: auto;
 }
 .card2{
   width: auto;
@@ -2254,6 +2254,11 @@ font-size: 20px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .p-logo {
+    width: 165px;
+    height: 260px;
+    border-radius: 10px;
+}
   .dsb-p {
     font-size: 17px;
     font-weight: bold;
@@ -2308,7 +2313,7 @@ font-size: 20px;
     height: 200px;
   }
   .s1 {
-    height: 1150px;
+    height: auto;
     background-color: white;
 }
   .but2{
@@ -2471,6 +2476,7 @@ footer{
 
 
 @media only screen and (min-width: 992px) and (max-width: 1024px) {
+  
   .laptop-container {
     width: 160%;
     height: 95%;
