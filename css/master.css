@@ -289,12 +289,12 @@ ul li{
   background: rgb(0, 0, 0);
   background: rgba(128, 0, 128, 0.7);
   color: #f1f1f1;
-  width: inherit;
+  width: 255px;
   transition: .5s ease;
   opacity: 0;
   color: azure;
   font-size: 20px;
-  height: inherit;
+  height: 230px;
   text-align: center;
   /* padding: 85px; */
   font-weight: bold;
