@@ -109,6 +109,11 @@ background-repeat: no-repeat;
 }
 .dropdown-menu{
   background-color: white !important;
+  display: none;
+  position: absolute;
+}
+.drp:hover .dropdown-menu{
+  display: block;
 }
 
 .banner{
