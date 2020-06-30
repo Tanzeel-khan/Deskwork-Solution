@@ -351,9 +351,7 @@
         </div>
       </div>
 <br><br>
-         <div class="text-center mt-50">
-          <a class="see2" href="#">Show More</a>
-      </div>
+        
   </div> 
   </div> 
 </div>
@@ -622,9 +620,66 @@
       <div class="post-content">
         <p class=" pt-3 post-title">Tell us about your business need
           We can help you</p>
-        <a href="#" class="btn mybt2 mt-4" data-animation="bounceInUp" data-delay="600ms" style="animation-delay: 600ms;">REQUEST A QUOTE</a>
+        <a href="#" class="btn mybt2 mt-4" id="myBtn" data-animation="bounceInUp" data-delay="600ms" style="animation-delay: 600ms;">REQUEST A QUOTE</a>
       </div>
      </div>
+  </div>
+  <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <form class="needs-validation mt-3" novalidate>
+        <div class="form-row">
+          <div class="col-md-6 mb-3">
+            <label for="validationCustom01">Full name</label>
+            <input type="text" class="form-control" id="validationCustom01" placeholder="Full name" value="" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div> <br>
+          <div class="col-md-6 mb-3">
+            <label for="validationCustom01">Company name</label>
+            <input type="text" class="form-control" id="validationCustom01" placeholder="Company name" value="" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div> <br>
+          <div class="col-md-6 mb-3">
+            <label for="validationCustomUsername">Email</label>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroupPrepend">@</span>
+              </div>
+              <input type="text" class="form-control" id="validationCustomUsername" placeholder="Username" aria-describedby="inputGroupPrepend" required>
+              <div class="invalid-feedback">
+                Please choose a username.
+              </div>
+            </div>
+          </div> <br>
+          <div class="col-md-6 mb-3">
+            <label for="validationCustomUsername">Budget</label>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroupPrepend">$</span>
+              </div>
+              <input type="text" class="form-control" id="validationCustomUsername" placeholder="Your Budget" aria-describedby="inputGroupPrepend" required>
+              <div class="invalid-feedback">
+                Please choose a username.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-8 mb-3">
+            <label for="validationCustomUsername">Project Details</label>
+          <textarea class="form-control c-w"></textarea>
+          </div>
+        </div>
+        <label for="exampleFormControlFile1">Upload Document</label>
+    <input type="file" class="form-control-file" id="exampleFormControlFile1"> <br>
+        <button class="btn btn-danger" style="margin-top: 0px !important;" type="submit">Submit</button>
+      </form>
+    </div>
+  
   </div>
 </div>
 </section>
@@ -749,6 +804,7 @@
         <script src="js/popper.min.js"></script>
         <!-- Bootstrap js -->
         <script src="./bootstrap/js/bootstrap.min.js"></script>
+        <script src="./js/popup.js"></script>
        
         <script type="text/javascript">
         function loadLogo(){
@@ -900,6 +956,5 @@ window.onload = function() {
 }
      </script> 
      <script src="./js/navbar_active.js"></script>
-     
 </body>
 </html>
